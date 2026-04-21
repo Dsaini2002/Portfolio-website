@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dinesh Saini — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">DS</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO SECTION ── -->
+  <section class="hero" id="hero">
+    <div class="parallax-bg" id="parallax-bg"></div>
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">MCA · NIT Trichy</p>
+      <h1 class="hero-name reveal">
+        <span class="line">Dinesh</span>
+        <span class="line accent-text">Saini</span>
+      </h1>
+      <p class="hero-sub reveal">Cybersecurity · Full-Stack · AI/ML</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT SECTION ── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">Crafting secure &amp;<br/>intelligent systems</h2>
+          <p class="about-desc">
+            I'm Dinesh Saini, an MCA student at NIT Trichy with a deep passion for cybersecurity and full-stack development. From implementing Post-Quantum Cryptography at IIT Jammu to building AI-powered network sniffers, I turn complex challenges into elegant solutions.
+          </p>
+          <p class="about-desc">
+            (Hearing Impairment) — I believe in breaking barriers, both in life and in technology.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">🏸</span>
+              <span class="stat-label">National Badminton</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="avatar-card">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">
+              <span class="avatar-initial">D</span>
+            </div>
+            <div class="floating-badge badge-1">NIT Trichy</div>
+            <!-- <div class="floating-badge badge-2">NIT Trichy</div> -->
+            <div class="floating-badge badge-3">IIT Intern</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS SECTION ── -->
+  <section class="skills section" id="skills">
+    <div class="parallax-mid" id="parallax-mid"></div>
+    <div class="container">
+      <p class="section-tag center reveal">Technical Arsenal</p>
+      <h2 class="section-title center reveal">Skills &amp; Certifications</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-delay="0">
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>C</span><span>C++</span><span>Python</span>
+            <span>JavaScript</span><span>Java</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="100">
+          <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Web Tech</h3>
+          <div class="skill-tags">
+            <span>HTML</span><span>CSS</span><span>React</span>
+            <span>Node.js</span><span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="200">
+          <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>AI / ML</h3>
+          <div class="skill-tags">
+            <span>Regression</span><span>Classification</span>
+            <span>Clustering</span><span>Deep Learning</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="300">
+          <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Cybersecurity</h3>
+          <div class="skill-tags">
+            <span>PQC</span><span>OpenSSH</span><span>liboqs</span>
+            <span>Kyber</span><span>Falcon</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="400">
+          <div class="skill-icon"><i class="fa-solid fa-toolbox"></i></div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>MySQL</span><span>VS Code</span>
+            <span>Excel</span><span>Scapy</span>
+          </div>
+        </div>
+        <div class="skill-card cert-card reveal" data-delay="500">
+          <div class="skill-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certifications</h3>
+          <div class="skill-tags">
+            <span>Full-Stack Bootcamp</span>
+            <span>AI &amp; ML</span>
+            <span>Deep Learning ⏳</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE / EDUCATION ── -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <p class="section-tag center reveal">Journey</p>
+      <h2 class="section-title center reveal">Experience &amp; Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Jun 2025 – Jul 2025</span>
+            <h3>Summer Intern — IIT Jammu</h3>
+            <p class="timeline-sub">Post-Quantum Cryptography</p>
+            <p>Compiled and deployed custom OpenSSH with liboqs, enabling quantum-resistant algorithms — Dilithium, Kyber, and Falcon. Analyzed PQC performance in real secure communication environments.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Jul 2024 – Jun 2027</span>
+            <h3>MCA — NIT Trichy</h3>
+            <p class="timeline-sub">Trichy, Tamil Nadu</p>
+            <p>Advanced computing, software engineering, algorithms, AI/ML, and cybersecurity. Industry-oriented projects and research in deep-tech domains.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="left">
+          <div class="timeline-dot"><i class="fa-solid fa-palette"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Mar 2025 — NIT Trichy</span>
+            <h3>Design Coordinator</h3>
+            <p class="timeline-sub">Version'25 — Annual MCA Fest</p>
+            <p>Designed the official event logo, T-shirt graphics, and promotional posters. Led visual branding for a national-level fest at NIT Trichy.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" data-side="right">
+          <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Sep 2021 – Jun 2024</span>
+            <h3>BCA — MDU Rohtak</h3>
+            <p class="timeline-sub">Maharishi Dayanand University</p>
+            <p>Strong foundations in programming, data structures, networking, OS, and databases. 1st position in MDU Rohtak Badminton Championship.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS SECTION ── -->
+  <section class="projects section" id="projects">
+    <div class="parallax-bottom" id="parallax-bottom"></div>
+    <div class="container">
+      <p class="section-tag center reveal">What I've Built</p>
+      <h2 class="section-title center reveal">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" data-delay="0">
+          <div class="project-num">01</div>
+          <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h3>NetScope++</h3>
+          <p class="project-type">Advanced Network Packet Sniffer</p>
+          <p class="project-desc">GUI-based sniffer using Python, Scapy &amp; Tkinter. Features live capture, protocol filtering, intrusion detection via AI, pie charts, stealth mode &amp; export tools.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Scapy</span><span>Tkinter</span><span>AI/ML</span>
+          </div>
+          <span class="project-date">May 2025</span>
+        </div>
+
+        <div class="project-card reveal" data-delay="150">
+          <div class="project-num">02</div>
+          <div class="project-icon"><i class="fa-solid fa-mask"></i></div>
+          <h3>Invisible Heist</h3>
+          <p class="project-type">Multiplayer Strategy Game</p>
+          <p class="project-desc">Python-based multiplayer game where one player hides as a thief and others are detectives. City map movement, transport modes, turn-based logic &amp; dynamic roleplay.</p>
+          <div class="project-tags">
+            <span>Python</span><span>GUI</span><span>Game Dev</span><span>Strategy</span>
+          </div>
+          <span class="project-date">Apr 2025</span>
+        </div>
+
+        <div class="project-card reveal" data-delay="300">
+          <div class="project-num">03</div>
+          <div class="project-icon"><i class="fa-solid fa-key"></i></div>
+          <h3>PQC-OpenSSH</h3>
+          <p class="project-type">Post-Quantum Cryptography Integration</p>
+          <p class="project-desc">Built and deployed a custom OpenSSH with liboqs support, enabling quantum-resistant key exchanges using Dilithium, Kyber &amp; Falcon algorithms.</p>
+          <div class="project-tags">
+            <span>C</span><span>OpenSSH</span><span>liboqs</span><span>Cryptography</span>
+          </div>
+          <span class="project-date">Jun–Jul 2025</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXTRACURRICULAR ── -->
+  <section class="extra section" id="extra">
+    <div class="container">
+      <p class="section-tag center reveal">Beyond Code</p>
+      <h2 class="section-title center reveal">Extracurricular</h2>
+      <div class="extra-grid">
+        <div class="extra-card reveal">
+          <div class="extra-icon"><i class="fa-solid fa-shuttlecock" style="font-style:normal;font-size:2rem;">🏸</i></div>
+          <h3>Badminton Champion</h3>
+          <ul>
+            <li> 1st Position — MDU Rohtak Badminton Championship</li>
+            <li> Represented Haryana State (Under-19) — twice</li>
+            <li> NIT-Trichy Sportsfete'2 — Team Badminton</li>
+          </ul>
+        </div>
+        <div class="extra-card reveal">
+          <div class="extra-icon" style="font-size:2rem;">🎨</div>
+          <h3>Design Leadership</h3>
+          <ul>
+            <li> Core Design — Version'25 NIT Trichy MCA Fest</li>
+            <li> Logo, T-shirt &amp; Poster Design</li>
+            <li> Visual Branding for 1000+ audience fest</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT SECTION ── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <p class="section-tag center reveal">Let's Connect</p>
+      <h2 class="section-title center reveal">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:dsaini1432002@gmail.com">dsaini1432002@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+919311603927">+91-931160XXXX</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Ambala Cantt, Haryana</span>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://linkedin.com/in/dinesh-saini43b11b341" target="_blank">linkedin.com/in/dinesh-saini43b11b341</a>
+          </div>
+        </div>
+        <form class="contact-form reveal-right" id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>© 2025 Dinesh Saini · Crafted with ❤️ &amp; Code</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
